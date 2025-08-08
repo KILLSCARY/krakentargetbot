@@ -6,6 +6,8 @@ services:
     branch: main
     buildCommand: ""
     startCommand: ./start.sh
+    runtime: python
+    pythonVersion: 3.10.13
     envVars:
       - key: API_TOKEN
-        value: ВСТАВЬ_СЮДА_ТОКЕН_ОТ_BOTFATHER
+        value: ВСТАВЬ_СВОЙ_ТОКЕН_СЮДА
